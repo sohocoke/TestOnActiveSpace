@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  TestOnActiveSpace
-//
-//  Created by ilo on 31/07/2015.
-//  Copyright (c) 2015 Big Bear Labs. All rights reserved.
-//
-
 import Cocoa
 
 @NSApplicationMain
@@ -13,15 +5,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
   @IBOutlet weak var window: NSWindow!
 
-
+  var controller: TestWindowController!
+  
+    
   func applicationDidFinishLaunching(aNotification: NSNotification) {
-    // Insert code here to initialize your application
   }
+  
+    
+  @IBAction
+  func newWindow(sender: AnyObject?) {
 
-  func applicationWillTerminate(aNotification: NSNotification) {
-    // Insert code here to tear down your application
+    controller = TestWindowController(windowNibName: "TestWindowController")
+    
+    controller.showWindow(self)
   }
-
 
 }
 

@@ -1,0 +1,16 @@
+: 1438332289:0;ls
+: 1438332293:0;open *.xco*
+: 1438332300:0;pwd
+: 1438332302:0;which github
+: 1438332307:0;brew install github
+: 1438332319:0;brew install github-release
+: 1438332343:0;ls
+: 1438332418:0;which github
+: 1438332420:0;ls
+: 1438332499:0;github
+: 1438332514:0;brew info github-release
+: 1438332539:0;brew cask install github
+: 1438332547:0;brew cask search github
+: 1438332554:0;brew cask info github
+: 1438332564:0;brew update
+: 1438332616:0;brew cask info github
