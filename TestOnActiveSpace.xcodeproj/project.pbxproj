@@ -10,18 +10,9 @@
 		514326F91B6B584000AFBA61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514326F81B6B584000AFBA61 /* AppDelegate.swift */; };
 		514326FB1B6B584000AFBA61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514326FA1B6B584000AFBA61 /* Images.xcassets */; };
 		514326FE1B6B584000AFBA61 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514326FC1B6B584000AFBA61 /* MainMenu.xib */; };
-		5143270A1B6B584000AFBA61 /* TestOnActiveSpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514327091B6B584000AFBA61 /* TestOnActiveSpaceTests.swift */; };
+		514327171B6B590F00AFBA61 /* TestWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514327151B6B590F00AFBA61 /* TestWindowController.swift */; };
+		514327181B6B590F00AFBA61 /* TestWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514327161B6B590F00AFBA61 /* TestWindowController.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		514327041B6B584000AFBA61 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 514326EB1B6B584000AFBA61 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 514326F21B6B584000AFBA61;
-			remoteInfo = TestOnActiveSpace;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		514326F31B6B584000AFBA61 /* TestOnActiveSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOnActiveSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,20 +20,12 @@
 		514326F81B6B584000AFBA61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		514326FA1B6B584000AFBA61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		514326FD1B6B584000AFBA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		514327031B6B584000AFBA61 /* TestOnActiveSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOnActiveSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		514327081B6B584000AFBA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		514327091B6B584000AFBA61 /* TestOnActiveSpaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOnActiveSpaceTests.swift; sourceTree = "<group>"; };
+		514327151B6B590F00AFBA61 /* TestWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestWindowController.swift; sourceTree = "<group>"; };
+		514327161B6B590F00AFBA61 /* TestWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		514326F01B6B584000AFBA61 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		514327001B6B584000AFBA61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				514326F51B6B584000AFBA61 /* TestOnActiveSpace */,
-				514327061B6B584000AFBA61 /* TestOnActiveSpaceTests */,
 				514326F41B6B584000AFBA61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				514326F31B6B584000AFBA61 /* TestOnActiveSpace.app */,
-				514327031B6B584000AFBA61 /* TestOnActiveSpaceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +57,8 @@
 				514326F81B6B584000AFBA61 /* AppDelegate.swift */,
 				514326FA1B6B584000AFBA61 /* Images.xcassets */,
 				514326FC1B6B584000AFBA61 /* MainMenu.xib */,
+				514327161B6B590F00AFBA61 /* TestWindowController.xib */,
+				514327151B6B590F00AFBA61 /* TestWindowController.swift */,
 				514326F61B6B584000AFBA61 /* Supporting Files */,
 			);
 			path = TestOnActiveSpace;
@@ -85,23 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				514326F71B6B584000AFBA61 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		514327061B6B584000AFBA61 /* TestOnActiveSpaceTests */ = {
-			isa = PBXGroup;
-			children = (
-				514327091B6B584000AFBA61 /* TestOnActiveSpaceTests.swift */,
-				514327071B6B584000AFBA61 /* Supporting Files */,
-			);
-			path = TestOnActiveSpaceTests;
-			sourceTree = "<group>";
-		};
-		514327071B6B584000AFBA61 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				514327081B6B584000AFBA61 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -126,24 +92,6 @@
 			productReference = 514326F31B6B584000AFBA61 /* TestOnActiveSpace.app */;
 			productType = "com.apple.product-type.application";
 		};
-		514327021B6B584000AFBA61 /* TestOnActiveSpaceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 514327101B6B584000AFBA61 /* Build configuration list for PBXNativeTarget "TestOnActiveSpaceTests" */;
-			buildPhases = (
-				514326FF1B6B584000AFBA61 /* Sources */,
-				514327001B6B584000AFBA61 /* Frameworks */,
-				514327011B6B584000AFBA61 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				514327051B6B584000AFBA61 /* PBXTargetDependency */,
-			);
-			name = TestOnActiveSpaceTests;
-			productName = TestOnActiveSpaceTests;
-			productReference = 514327031B6B584000AFBA61 /* TestOnActiveSpaceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -155,10 +103,6 @@
 				TargetAttributes = {
 					514326F21B6B584000AFBA61 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					514327021B6B584000AFBA61 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 514326F21B6B584000AFBA61;
 					};
 				};
 			};
@@ -176,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				514326F21B6B584000AFBA61 /* TestOnActiveSpace */,
-				514327021B6B584000AFBA61 /* TestOnActiveSpaceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,15 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514327181B6B590F00AFBA61 /* TestWindowController.xib in Resources */,
 				514326FB1B6B584000AFBA61 /* Images.xcassets in Resources */,
 				514326FE1B6B584000AFBA61 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		514327011B6B584000AFBA61 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,26 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				514326F91B6B584000AFBA61 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		514326FF1B6B584000AFBA61 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5143270A1B6B584000AFBA61 /* TestOnActiveSpaceTests.swift in Sources */,
+				514327171B6B590F00AFBA61 /* TestWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		514327051B6B584000AFBA61 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 514326F21B6B584000AFBA61 /* TestOnActiveSpace */;
-			targetProxy = 514327041B6B584000AFBA61 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		514326FC1B6B584000AFBA61 /* MainMenu.xib */ = {
@@ -275,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -313,7 +235,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -341,42 +263,6 @@
 			};
 			name = Release;
 		};
-		514327111B6B584000AFBA61 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TestOnActiveSpaceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestOnActiveSpace.app/Contents/MacOS/TestOnActiveSpace";
-			};
-			name = Debug;
-		};
-		514327121B6B584000AFBA61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TestOnActiveSpaceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestOnActiveSpace.app/Contents/MacOS/TestOnActiveSpace";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -396,14 +282,7 @@
 				5143270F1B6B584000AFBA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		514327101B6B584000AFBA61 /* Build configuration list for PBXNativeTarget "TestOnActiveSpaceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				514327111B6B584000AFBA61 /* Debug */,
-				514327121B6B584000AFBA61 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
